@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "image": "",
+        "extras": "HTML",
+        "title": "Project HTML at ABC client.",
+        "timeline": "2020-2021",
+        "description": "Do consectetur qui reprehenderit in id incididunt voluptate deserunt sit laborum. Veniam voluptate et duis laborum labore occaecat consectetur eu adipisicing. Magna proident ut incididunt ipsum ut laborum. Nulla adipisicing nostrud in consequat consequat.",
+    },
+    {
+        "id": 2,
+        "image": "",
+        "extras": "JavaScript",
+        "title": "Project JS at DEF client.",
+        "timeline": "2020-2021",
+        "description": "Do consectetur qui reprehenderit in id incididunt voluptate deserunt sit laborum. Veniam voluptate et duis laborum labore occaecat consectetur eu adipisicing. Magna proident ut incididunt ipsum ut laborum. Nulla adipisicing nostrud in consequat consequat.",
+    },
+    {
+        "id": 3,
+        "image": "",
+        "extras": "CSS",
+        "title": "Project CSS at XYZ client.",
+        "timeline": "2020-2021",
+        "description": "Do consectetur qui reprehenderit in id incididunt voluptate deserunt sit laborum. Veniam voluptate et duis laborum labore occaecat consectetur eu adipisicing. Magna proident ut incididunt ipsum ut laborum. Nulla adipisicing nostrud in consequat consequat.",
+    },
+    {
+        "id": 4,
+        "image": "",
+        "extras": "Mobile Application",
+        "title": "Mobile App of QWERTY for ZYX company.",
+        "timeline": "2020-2021",
+        "description": "Do consectetur qui reprehenderit in id incididunt voluptate deserunt sit laborum. Veniam voluptate et duis laborum labore occaecat consectetur eu adipisicing. Magna proident ut incididunt ipsum ut laborum. Nulla adipisicing nostrud in consequat consequat.",
+    },
+]
