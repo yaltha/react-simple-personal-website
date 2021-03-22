@@ -2,7 +2,7 @@ function Work({ work }) {
   return (
     <div className="work">
       <div>
-        <image />
+        <image src={work.image} />
         <div>
           <p>{work.extras}</p>
           <p className="bold">{work.title}</p>

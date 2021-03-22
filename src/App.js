@@ -4,8 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
-import works from "./works.json";
-
+// import works from "./works.json";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Works works={works} />
+      <Works />
       <Contact />
     </main>
   );
