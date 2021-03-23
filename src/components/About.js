@@ -1,7 +1,12 @@
 function About() {
   return (
     <div className="about-me">
-      <button>about me</button>
+      <button>
+        <span>
+          <i class="fas fa-address-card"></i>
+        </span>{" "}
+        about me
+      </button>
       <p>
         Deserunt dolore exercitation nisi reprehenderit sit aliquip. Eu sit aute
         veniam elit nisi magna enim ad. Labore occaecat ipsum aliqua duis sunt.

@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="home">
       <p>Welcome to my world</p>
-      <image/>
+      <img alt="jaydon arcand" src="../img/crop-pp.jpg" />
       <p className="name">
         Jaydon<span className="bold">Arcand</span>
       </p>

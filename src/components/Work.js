@@ -1,9 +1,9 @@
 function Work({ work }) {
   return (
     <div className="work">
-      <div>
-        <image src={work.image} />
-        <div>
+      <div className="headline">
+        <img className="image" alt={work.title} src={work.image} />
+        <div className="text-headline">
           <p>{work.extras}</p>
           <p className="bold">{work.title}</p>
           <p>{work.timeline}</p>
