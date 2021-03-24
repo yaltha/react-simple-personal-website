@@ -187,3 +187,110 @@ body {
     }
   }
 }
+
+@media (min-width: 1440px) {
+  body {
+    button {
+      font-size: 1.5em;
+    }
+
+    .navbar {
+      margin: 2em 3em;
+
+      p {
+        font-size: 2em;
+      }
+
+      .right-navbar {
+        button {
+          margin: 0 0 0 2em;
+        }
+        .menu-list {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: 0;
+          border: none;
+          a {
+            text-align: center;
+            text-decoration: none;
+            color: inherit;
+            font-weight: 700;
+            font-size: 1.5em;
+          }
+        }
+        .button-bars {
+          display: none;
+        }
+      }
+    }
+
+    .home {
+      p {
+        font-size: 2.5em;
+      }
+      .name {
+        font-size: 4.5em;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+
+    .about-me {
+      max-width: 1200px;
+      margin: 3em auto;
+
+      p {
+        font-size: 1.5em;
+      }
+    }
+
+    .works {
+      max-width: 1200px;
+      margin: 3em auto;
+      .works-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      }
+    }
+
+    .work {
+      margin-top: 2em;
+      padding: 3em;
+      .headline {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        img {
+          width: 230px;
+          height: 230px;
+        }
+        .image {
+          object-fit: cover;
+        }
+
+        .text-headline {
+          margin-left: 1em;
+          p {
+            font-size: 1.7em;
+          }
+        }
+      }
+      .work-description {
+        font-size: 1.3em;
+        line-height: 2;
+        border-bottom: 1px solid lightgrey;
+      }
+    }
+
+    .contact-me {
+      padding: 8em;
+      p {
+        font-size: 1.5em;
+      }
+    }
+  }
+}

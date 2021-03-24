@@ -25,7 +25,7 @@ function Navbar() {
           </span>{" "}
           my works
         </button>
-        <button onClick={() => setOpen(!open)}>
+        <button className="button-bars" onClick={() => setOpen(!open)}>
           <i class="fas fa-bars"></i>
         </button>
       </div>
