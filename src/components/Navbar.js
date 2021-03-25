@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import { useState } from "react";
 function Navbar() {
   // const handleMenuBar = () => {
@@ -10,26 +11,28 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="navbar">
-      <p>
-        Jaydon<span className="bold">Arcand</span>
-      </p>
-      <div className="right-navbar">
-        <div className="menu-list">
-          <a href="./Contact.js">Contact</a>
-          <a href="./About.js">About</a>
+    <Router>
+      <div className="navbar">
+        <p>
+          Jaydon<span className="bold">Arcand</span>
+        </p>
+        <div className="right-navbar">
+          <div className="menu-list">
+            <Link to="/contact">Contact</Link>
+            <Link to="/about">About</Link>
+          </div>
+          <Link to="/works">
+            <span>
+              <i class="fas fa-briefcase"></i>
+            </span>{" "}
+            my works
+          </Link>
+          <button className="button-bars" onClick={() => setOpen(!open)}>
+            <i class="fas fa-bars"></i>
+          </button>
         </div>
-        <button>
-          <span>
-            <i class="fas fa-briefcase"></i>
-          </span>{" "}
-          my works
-        </button>
-        <button className="button-bars" onClick={() => setOpen(!open)}>
-          <i class="fas fa-bars"></i>
-        </button>
       </div>
-    </div>
+    </Router>
   );
 }
 export default Navbar;
